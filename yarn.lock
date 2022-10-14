@@ -1188,7 +1188,7 @@
   resolved "https://registry.yarnpkg.com/@bcoe/v8-coverage/-/v8-coverage-0.2.3.tgz#75a2e8b51cb758a7553d6804a5932d7aace75c39"
   integrity sha512-0hYQ8SB4Db5zvZB4axdMHGwEaQjkZzFjQiN9LVYvIFB2nSUHW9tYpxWriPrWDASIxiaXax83REcLxuSdnGPZtw==
 
-"@ckb-lumos/base@0.18.0", "@ckb-lumos/base@^0.18.0-rc2":
+"@ckb-lumos/base@0.18.0":
   version "0.18.0"
   resolved "https://registry.yarnpkg.com/@ckb-lumos/base/-/base-0.18.0.tgz#225ad3e95fcb8b1d7e79f3784a86261c6f60d516"
   integrity sha512-+CW+e7iQcAqSFDzU2UDaPoEpncuQfFx4PnzTsmC6Nr70IAi4BdwZVl+8H5usYHhSZMzkCMXJ4aK2nLquEPmcdA==
@@ -1225,14 +1225,6 @@
     "@ckb-lumos/base" "0.18.0"
     "@ckb-lumos/bi" "0.18.0"
     "@ckb-lumos/toolkit" "0.18.0"
-
-"@ckb-lumos/rpc@0.18.0-rc2":
-  version "0.18.0-rc2"
-  resolved "https://registry.yarnpkg.com/@ckb-lumos/rpc/-/rpc-0.18.0-rc2.tgz#f7360d7e89d76c97188711eba5faedc4e23b2d40"
-  integrity sha512-ZuJW5NA4GOO6repwZGD8OqTT6sRmKvLPrut0s2xK7uIiGh5bdL9NThk7Nlnbyvtp8LVxIe4LHFgxFzWbZ+NXMA==
-  dependencies:
-    "@ckb-lumos/base" "^0.18.0-rc2"
-    ckb-js-toolkit "^0.100.0-rc1"
 
 "@ckb-lumos/toolkit@0.18.0":
   version "0.18.0"
