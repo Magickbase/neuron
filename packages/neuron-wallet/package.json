@@ -36,7 +36,7 @@
     ]
   },
   "dependencies": {
-    "@ckb-lumos/base": "0.18.0-rc2",
+    "@ckb-lumos/base": "0.18.0",
     "@ckb-lumos/rpc": "0.18.0-rc2",
     "@iarna/toml": "2.2.5",
     "@ledgerhq/hw-transport-node-hid": "6.20.0",
