@@ -9,7 +9,7 @@ import {
 import fetch from "cross-fetch";
 
 function instanceOfScriptWrapper(object: unknown): object is ScriptWrapper {
-  return typeof object === "object" && object != null && "script" in object;
+  return typeof object === "object" && object !== null && "script" in object;
 }
 const UnwrapScriptWrapper = (inputScript: ScriptWrapper | Script): Script => {
   if (instanceOfScriptWrapper(inputScript)) {

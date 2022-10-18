@@ -335,7 +335,7 @@ export default class CellsService {
         o.typeCodeHash === nftIssuerCodehash ||
         o.typeCodeHash === nftClassCodehash ||
         o.typeCodeHash === nftCodehash ||
-        (o.typeCodeHash != null && o.hasData)
+        (o.typeCodeHash !== null && o.hasData)
       ) {
         return blake160Hashes.has(o.lockArgs)
       }

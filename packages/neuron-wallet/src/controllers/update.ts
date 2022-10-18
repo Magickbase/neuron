@@ -44,7 +44,7 @@ export default class UpdateController {
       UpdateController.isChecking = false
       this.notify()
 
-      dialog.showErrorBox('Error', error == null ? 'unknown' : (error.stack || error).toString())
+      dialog.showErrorBox('Error', error === null ? 'unknown' : (error.stack || error).toString())
     })
 
     autoUpdater.on('update-available', (info: UpdateInfo) => {
