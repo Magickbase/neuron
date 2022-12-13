@@ -1129,7 +1129,7 @@
     "@babel/parser" "^7.18.10"
     "@babel/types" "^7.18.10"
 
-"@babel/traverse@^7.1.6", "@babel/traverse@^7.12.9", "@babel/traverse@^7.19.1", "@babel/traverse@^7.19.3", "@babel/traverse@^7.20.1", "@babel/traverse@^7.20.5", "@babel/traverse@^7.4.3", "@babel/traverse@^7.7.2":
+"@babel/traverse@^7.1.6", "@babel/traverse@^7.12.9", "@babel/traverse@^7.19.1", "@babel/traverse@^7.20.1", "@babel/traverse@^7.20.5", "@babel/traverse@^7.4.3", "@babel/traverse@^7.7.2":
   version "7.20.5"
   resolved "https://registry.yarnpkg.com/@babel/traverse/-/traverse-7.20.5.tgz#78eb244bea8270fdda1ef9af22a5d5e5b7e57133"
   integrity sha512-WM5ZNN3JITQIq9tFZaw1ojLU3WgWdtkxnhM1AegMS+PvHjkM5IXjmYEGY7yukz5XS4sJyEf2VzWjI8uAavhxBQ==
@@ -1145,7 +1145,7 @@
     debug "^4.1.0"
     globals "^11.1.0"
 
-"@babel/types@^7.0.0", "@babel/types@^7.12.6", "@babel/types@^7.12.7", "@babel/types@^7.18.10", "@babel/types@^7.18.6", "@babel/types@^7.18.9", "@babel/types@^7.19.0", "@babel/types@^7.19.3", "@babel/types@^7.2.0", "@babel/types@^7.20.0", "@babel/types@^7.20.2", "@babel/types@^7.20.5", "@babel/types@^7.3.0", "@babel/types@^7.3.3", "@babel/types@^7.4.0", "@babel/types@^7.4.4":
+"@babel/types@^7.0.0", "@babel/types@^7.12.6", "@babel/types@^7.12.7", "@babel/types@^7.18.10", "@babel/types@^7.18.6", "@babel/types@^7.18.9", "@babel/types@^7.19.0", "@babel/types@^7.2.0", "@babel/types@^7.20.0", "@babel/types@^7.20.2", "@babel/types@^7.20.5", "@babel/types@^7.3.0", "@babel/types@^7.3.3", "@babel/types@^7.4.0", "@babel/types@^7.4.4":
   version "7.20.5"
   resolved "https://registry.yarnpkg.com/@babel/types/-/types-7.20.5.tgz#e206ae370b5393d94dfd1d04cd687cace53efa84"
   integrity sha512-c9fst/h2/dcF7H+MJKZ2T0KjEQ8hY/BNnDk/H3XY8C4Aw/eWQXWn/lWntHF9ooUBnGmEvbfGrTgLWc+um0YDUg==
@@ -5419,15 +5419,15 @@
     "@typescript-eslint/types" "5.45.1"
     eslint-visitor-keys "^3.3.0"
 
-"@uifabric/azure-themes@^7.10.27":
-  version "7.10.29"
-  resolved "https://registry.yarnpkg.com/@uifabric/azure-themes/-/azure-themes-7.10.29.tgz#14c21887c3c97b61a4b789765df059228694506e"
-  integrity sha512-U30TNhq13TRbIyT/7bmH9uZWIuhmE10QoWJiClH3QC4qHjQfVtefq4Jvo7EhN0cf08TprMJ5u6yvm97eHg6mAQ==
+"@uifabric/azure-themes@^7.10.31":
+  version "7.10.31"
+  resolved "https://registry.yarnpkg.com/@uifabric/azure-themes/-/azure-themes-7.10.31.tgz#d09aa9c06e4466af0830334580204d8111433ad9"
+  integrity sha512-Fg3QfsbH7kfHxy1SDY1NmCBGcsL6X3v0CktSXFI16eRaUQfqtZlZIEBhlMyMlpCq/kP0zKwH6oh+PMtmzlqtOA==
   dependencies:
     "@fluentui/theme" "^1.7.13"
     "@uifabric/merge-styles" "^7.20.2"
     "@uifabric/set-version" "^7.0.24"
-    office-ui-fabric-react "^7.201.0"
+    office-ui-fabric-react "^7.201.1"
     tslib "^1.10.0"
 
 "@uifabric/example-data@^7.1.6":
@@ -5437,28 +5437,28 @@
   dependencies:
     tslib "^1.10.0"
 
-"@uifabric/experiments@7.45.14":
-  version "7.45.14"
-  resolved "https://registry.yarnpkg.com/@uifabric/experiments/-/experiments-7.45.14.tgz#03e8fb8739e7b5dde775b087ed869a7692f7d18d"
-  integrity sha512-BqDLOb5mz0edrq9jw/8lXDhgGb/yLcS+gM5Rzw5aLfbjQAJioOta2Iqh/h5ZNuW6seaDMOVpBito4LocFKSG9w==
+"@uifabric/experiments@7.45.18":
+  version "7.45.18"
+  resolved "https://registry.yarnpkg.com/@uifabric/experiments/-/experiments-7.45.18.tgz#8bbe061983feede8a1f89c422602e0709f6c526f"
+  integrity sha512-eCplFNgf78OE/lcgr9r83Lu0HS8TfZr5YB4OmnODGTG5QgNfQZMt39ycfr61CWPnZoNOmIWFGHzcgByHum/bag==
   dependencies:
     "@fluentui/theme" "^1.7.13"
     "@microsoft/load-themed-styles" "^1.10.26"
-    "@uifabric/azure-themes" "^7.10.27"
+    "@uifabric/azure-themes" "^7.10.31"
     "@uifabric/example-data" "^7.1.6"
     "@uifabric/file-type-icons" "^7.10.10"
-    "@uifabric/fluent-theme" "^7.7.27"
+    "@uifabric/fluent-theme" "^7.7.30"
     "@uifabric/foundation" "^7.10.16"
     "@uifabric/icons" "^7.9.5"
     "@uifabric/merge-styles" "^7.20.2"
     "@uifabric/react-hooks" "^7.16.4"
     "@uifabric/set-version" "^7.0.24"
     "@uifabric/styling" "^7.25.1"
-    "@uifabric/theme-samples" "^7.5.27"
+    "@uifabric/theme-samples" "^7.5.30"
     "@uifabric/utilities" "^7.38.2"
     "@uifabric/variants" "^7.3.4"
     deep-assign "^2.0.0"
-    office-ui-fabric-react "^7.199.6"
+    office-ui-fabric-react "^7.201.1"
     prop-types "^15.7.2"
     tslib "^1.10.0"
 
@@ -5471,17 +5471,17 @@
     "@uifabric/styling" "^7.25.1"
     tslib "^1.10.0"
 
-"@uifabric/fluent-theme@^7.7.27":
-  version "7.7.29"
-  resolved "https://registry.yarnpkg.com/@uifabric/fluent-theme/-/fluent-theme-7.7.29.tgz#1f2526e74a85b186a21acfb9419d07474d2fd5dc"
-  integrity sha512-sOwayroPWV91gQnJUxuju+kPVzrB1TdISfSjrcuPzXYqi7WH2sVfQs1S/s0DvWbd+eDkFYku/93tMeLaR+8IaQ==
+"@uifabric/fluent-theme@^7.7.30":
+  version "7.7.30"
+  resolved "https://registry.yarnpkg.com/@uifabric/fluent-theme/-/fluent-theme-7.7.30.tgz#c87815a70283046c45dd01ab110714ca96e69699"
+  integrity sha512-ck5JmDYmpwx4nnuqRYkfZLlKXfrFiYdijhRlKwuwDDglqMIQI/voE6ezdu704tPewuiI9SGsq0JeLjsRVkq27g==
   dependencies:
     "@fluentui/theme" "^1.7.13"
     "@uifabric/merge-styles" "^7.20.2"
     "@uifabric/set-version" "^7.0.24"
     "@uifabric/styling" "^7.25.1"
     "@uifabric/variants" "^7.3.4"
-    office-ui-fabric-react "^7.201.0"
+    office-ui-fabric-react "^7.201.1"
     tslib "^1.10.0"
 
 "@uifabric/foundation@^7.10.16":
@@ -5542,15 +5542,15 @@
     "@uifabric/utilities" "^7.38.2"
     tslib "^1.10.0"
 
-"@uifabric/theme-samples@^7.5.27":
-  version "7.5.29"
-  resolved "https://registry.yarnpkg.com/@uifabric/theme-samples/-/theme-samples-7.5.29.tgz#ae4403225964cc71b174978dd37b524787b7fafc"
-  integrity sha512-4X72E59TYcS3oMZZe/Fa2xIbAvpRTY2Bh93io/ZPqsecAivBbShH4QjIH3vJpB3cuv7PGMaqrPZjoKgW5n0nHw==
+"@uifabric/theme-samples@^7.5.30":
+  version "7.5.30"
+  resolved "https://registry.yarnpkg.com/@uifabric/theme-samples/-/theme-samples-7.5.30.tgz#9c8c519c46e4986d6f4a717f0fa2b1e8af259857"
+  integrity sha512-w2Kn7DBOMvI2qK5xNYZbg41CZy7aDo8CJlFiegGjdBY5B7BW1UQD3tO0REmCHpcMdVGcxjqeT5e44NEiaDlxww==
   dependencies:
     "@fluentui/theme" "^1.7.13"
     "@uifabric/set-version" "^7.0.24"
     "@uifabric/variants" "^7.3.4"
-    office-ui-fabric-react "^7.201.0"
+    office-ui-fabric-react "^7.201.1"
     tslib "^1.10.0"
 
 "@uifabric/utilities@^7.38.2":
@@ -12097,13 +12097,6 @@ good-listener@^1.2.2:
   dependencies:
     delegate "^3.1.2"
 
-gopd@^1.0.1:
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/gopd/-/gopd-1.0.1.tgz#29ff76de69dac7489b7c0918a5788e56477c332c"
-  integrity sha512-d65bNlIadxvpb/A2abVdlqKqV563juRnZ1Wtk6s1sIR8uNsXR70xqIzVqxVf1eTqDunwT2MkczEeaezCKTZhwA==
-  dependencies:
-    get-intrinsic "^1.1.3"
-
 got@^9.6.0:
   version "9.6.0"
   resolved "https://registry.yarnpkg.com/got/-/got-9.6.0.tgz#edf45e7d67f99545705de1f7bbeeeb121765ed85"
@@ -15977,13 +15970,6 @@ minipass@^3.0.0, minipass@^3.1.0, minipass@^3.1.1, minipass@^3.1.3, minipass@^3.
   dependencies:
     yallist "^4.0.0"
 
-minipass@^4.0.0:
-  version "4.0.0"
-  resolved "https://registry.yarnpkg.com/minipass/-/minipass-4.0.0.tgz#7cebb0f9fa7d56f0c5b17853cbe28838a8dbbd3b"
-  integrity sha512-g2Uuh2jEKoht+zvO6vJqXmYpflPqzRBT+Th2h01DKh5z7wbY/AZ2gCQ78cP70YoHPyFdY30YBV5WxgLOEwOykw==
-  dependencies:
-    yallist "^4.0.0"
-
 minizlib@^1.3.3:
   version "1.3.3"
   resolved "https://registry.yarnpkg.com/minizlib/-/minizlib-1.3.3.tgz#2290de96818a34c29551c8a8d301216bd65a861d"
@@ -16924,10 +16910,10 @@ office-ui-fabric-react@7.199.6:
     prop-types "^15.7.2"
     tslib "^1.10.0"
 
-office-ui-fabric-react@^7.199.6, office-ui-fabric-react@^7.201.0:
-  version "7.201.0"
-  resolved "https://registry.yarnpkg.com/office-ui-fabric-react/-/office-ui-fabric-react-7.201.0.tgz#cebc58fd99faee6f300d61687953a37caa4425a1"
-  integrity sha512-8WDlw4QDwz8hyw7VEk8OqBWg0qd7hXzLseUtc3s84C9WOjM5PX35E9eatODTxQWQ87jl44Sb1W1upBZDheo4vg==
+office-ui-fabric-react@^7.201.1:
+  version "7.201.1"
+  resolved "https://registry.yarnpkg.com/office-ui-fabric-react/-/office-ui-fabric-react-7.201.1.tgz#adce6ec5a17d66cac41598684c6167e040696172"
+  integrity sha512-Re8vwVIYeTluwiKtW0pAhTBLwSl9xYeoOrX2juUCQHyUD3krDmsJm3zXu7Z3GmZRW2IGFWnZw9xTqSVfD7QlVg==
   dependencies:
     "@fluentui/date-time-utilities" "^7.9.1"
     "@fluentui/react-focus" "^7.18.17"
