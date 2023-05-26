@@ -1,15 +1,26 @@
-import { when } from 'jest-when'
-import { getConnection } from 'typeorm'
-import { initConnection } from '../../src/database/chain/ormconfig'
+import {  when } from 'jest-when'
+import {  getConnection } from 'typeorm'
+import {  initConnection } from '../../src/database/chain/ormconfig'
 import AddressMeta from '../../src/database/address/meta'
-import { AddressType } from '../../src/models/keys/address'
-import { AddressVersion } from '../../src/models/address'
+import {  AddressType } from '../../src/models/keys/address'
+import {  AddressVersion } from '../../src/models/address'
 import IndexerTxHashCache from '../../src/database/chain/entities/indexer-tx-hash-cache'
 import RpcService from '../../src/services/rpc-service'
 
 const stubbedGetTransactionFn = jest.fn()
 const stubbedGetHeaderFn = jest.fn()
 const stubbedGetTransactionsByLockScriptFn = jest.fn()
+const stubbedCollectFn = jest.fn(() => {
+  return {
+    [Symbol.asyncIterator]: () => {
+      return {
+        next: async () => {
+          return { done: true }
+        },
+      }
+    },
+  }
+})
 
 const stubbedRPCServiceConstructor = jest.fn().mockImplementation(() => ({
   getTransaction: stubbedGetTransactionFn,
@@ -20,8 +31,13 @@ const stubbedIndexerConstructor = jest.fn().mockImplementation(() => ({
   getTransactionsByLockScript: stubbedGetTransactionsByLockScriptFn,
 }))
 
-const stubbedTransactionCollectorConstructor = jest.fn()
-const stubbedCellCollectorConstructor = jest.fn()
+const stubbedTransactionCollectorConstructor = jest.fn().mockImplementation(() => ({
+  getTransactionHashes: stubbedGetTransactionFn,
+}))
+
+const stubbedCellCollectorConstructor = jest.fn().mockImplementation(() => ({
+  collect: stubbedCollectFn,
+}))
 
 const resetMocks = () => {
   stubbedGetTransactionFn.mockReset()
