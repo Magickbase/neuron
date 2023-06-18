@@ -5004,10 +5004,10 @@
     "@typescript-eslint/types" "5.58.0"
     eslint-visitor-keys "^3.3.0"
 
-"@uifabric/azure-themes@^7.10.27":
-  version "7.10.35"
-  resolved "https://registry.yarnpkg.com/@uifabric/azure-themes/-/azure-themes-7.10.35.tgz#f758153ec2082d5a716a5b45761d23c6ab4a53e5"
-  integrity sha512-zW2qQoNGg6LZ/HAg/NYR8LZijr4biIqhLELvNMsJhxzWDC53AU4lVJJEJfpG0vCHL2gWEppPBkrfivfQFfO/+Q==
+"@uifabric/azure-themes@^7.10.37":
+  version "7.10.37"
+  resolved "https://registry.yarnpkg.com/@uifabric/azure-themes/-/azure-themes-7.10.37.tgz#2441d2c66cdc2292d4f3957c78de1304cd200462"
+  integrity sha512-0cTA+JVd2s3ei1TnF97rSBPEn/CVu0Bf1mTCmW0t7Zgq9ImRtyNro/3VNLNGhkO3PzAddxkngu4Qe4Q3cVsq1Q==
   dependencies:
     "@fluentui/theme" "^1.7.13"
     "@uifabric/merge-styles" "^7.20.2"
@@ -5022,32 +5022,32 @@
   dependencies:
     tslib "^1.10.0"
 
-"@uifabric/experiments@7.45.14":
-  version "7.45.14"
-  resolved "https://registry.yarnpkg.com/@uifabric/experiments/-/experiments-7.45.14.tgz#03e8fb8739e7b5dde775b087ed869a7692f7d18d"
-  integrity sha512-BqDLOb5mz0edrq9jw/8lXDhgGb/yLcS+gM5Rzw5aLfbjQAJioOta2Iqh/h5ZNuW6seaDMOVpBito4LocFKSG9w==
+"@uifabric/experiments@7.45.25":
+  version "7.45.25"
+  resolved "https://registry.yarnpkg.com/@uifabric/experiments/-/experiments-7.45.25.tgz#afe43a52b9c5990c0192e04591bc424a22bd6d74"
+  integrity sha512-1695ZsMAlXzTT5OC7PO/qx3lVvxz3J9OTfmR/GiKzjTadufpQO8eeN7Wv9Ld2NAdDwd4eRLOmPEXGiN1Z1WtrA==
   dependencies:
     "@fluentui/theme" "^1.7.13"
     "@microsoft/load-themed-styles" "^1.10.26"
-    "@uifabric/azure-themes" "^7.10.27"
+    "@uifabric/azure-themes" "^7.10.37"
     "@uifabric/example-data" "^7.1.6"
-    "@uifabric/file-type-icons" "^7.10.10"
-    "@uifabric/fluent-theme" "^7.7.27"
+    "@uifabric/file-type-icons" "^7.10.11"
+    "@uifabric/fluent-theme" "^7.7.33"
     "@uifabric/foundation" "^7.10.16"
     "@uifabric/icons" "^7.9.5"
     "@uifabric/merge-styles" "^7.20.2"
     "@uifabric/react-hooks" "^7.16.4"
     "@uifabric/set-version" "^7.0.24"
     "@uifabric/styling" "^7.25.1"
-    "@uifabric/theme-samples" "^7.5.27"
+    "@uifabric/theme-samples" "^7.5.33"
     "@uifabric/utilities" "^7.38.2"
     "@uifabric/variants" "^7.3.4"
     deep-assign "^2.0.0"
-    office-ui-fabric-react "^7.199.6"
+    office-ui-fabric-react "^7.204.0"
     prop-types "^15.7.2"
     tslib "^1.10.0"
 
-"@uifabric/file-type-icons@^7.10.10":
+"@uifabric/file-type-icons@^7.10.11":
   version "7.10.11"
   resolved "https://registry.yarnpkg.com/@uifabric/file-type-icons/-/file-type-icons-7.10.11.tgz#eab2eb6bd301f7a61a263457466b3215910fe9cc"
   integrity sha512-g/I835/qiBKn4S9FED7feGC3xy9PaUoU+Lk7wu/ZKGJFnVHEDwoOWQSGlKZc1l8LlF+9E+9zDWkm0C1vNeb25g==
@@ -5056,7 +5056,7 @@
     "@uifabric/styling" "^7.25.1"
     tslib "^1.10.0"
 
-"@uifabric/fluent-theme@^7.7.27":
+"@uifabric/fluent-theme@^7.7.33":
   version "7.7.33"
   resolved "https://registry.yarnpkg.com/@uifabric/fluent-theme/-/fluent-theme-7.7.33.tgz#3eeeaac26d1ac895a00469378241f0ad50803570"
   integrity sha512-93UtFn/V8cJYDHugyDOwK/o8ddVHg7JlT8KotY5e/noFhxCf9XrG9NmfusAUqLXLyjujkJON2EtCj3ok53hxIQ==
@@ -5127,7 +5127,7 @@
     "@uifabric/utilities" "^7.38.2"
     tslib "^1.10.0"
 
-"@uifabric/theme-samples@^7.5.27":
+"@uifabric/theme-samples@^7.5.33":
   version "7.5.33"
   resolved "https://registry.yarnpkg.com/@uifabric/theme-samples/-/theme-samples-7.5.33.tgz#1afed2b45b3fa227e7656c52b379dd23e07e3837"
   integrity sha512-GjZ0Pd5m4SumHxJQ6c3ziSPw31FJ4/Re2o9SX53UDsF+ix9EopUx3P5hmZhtzAtfKpsOeoA/3NQkaYUvMc4sbw==
@@ -16670,7 +16670,7 @@ obuf@^1.0.0, obuf@^1.1.2:
   resolved "https://registry.yarnpkg.com/obuf/-/obuf-1.1.2.tgz#09bea3343d41859ebd446292d11c9d4db619084e"
   integrity sha512-PX1wu0AmAdPqOL1mWhqmlOd8kOIZQwGZw6rh7uby9fTc5lhaOWFLX3I6R1hrF9k3zUY40e6igsLGkDXK92LJNg==
 
-office-ui-fabric-react@7.204.0, office-ui-fabric-react@^7.199.6, office-ui-fabric-react@^7.204.0:
+office-ui-fabric-react@7.204.0, office-ui-fabric-react@^7.204.0:
   version "7.204.0"
   resolved "https://registry.yarnpkg.com/office-ui-fabric-react/-/office-ui-fabric-react-7.204.0.tgz#1bec4d14f91bee8fddf2fc05bdc1a8af462211fa"
   integrity sha512-W1xIsYEwxPrGYojvVtGTGvSfdnUoPEm8w6hhMlW/uFr5YwIB1isG/dVk4IZxWbcbea7612u059p+jRf+RjPW0w==
