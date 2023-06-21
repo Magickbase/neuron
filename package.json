@@ -61,7 +61,7 @@
   "resolutions": {
     "@types/react": "17.0.62",
     "react-i18next": ">=11.16.4",
-    "usb": "1.8.8"
+    "usb": "1.9.2"
   },
   "volta": {
     "node": "18.16.0"
