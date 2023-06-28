@@ -95,7 +95,7 @@
     "react-app-rewired": "2.2.1",
     "react-scripts": "5.0.1",
     "react-test-renderer": "16.14.0",
-    "storybook-addon-react-router-v6": "0.2.1",
+    "storybook-addon-react-router-v6": "0.3.6",
     "webpack": "5.88.0"
   },
   "resolutions": {
