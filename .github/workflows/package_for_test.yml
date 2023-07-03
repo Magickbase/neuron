@@ -52,7 +52,7 @@ jobs:
       - name: Get PR Branch
         if: github.event_name == 'issue_comment'
         id: comment-branch
-        uses: xt0rted/pull-request-comment-branch@v1
+        uses: xt0rted/pull-request-comment-branch@v2
         with:
           repo_token: ${{ secrets.GITHUB_TOKEN }}
 
