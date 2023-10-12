@@ -2,7 +2,7 @@
   "name": "neuron",
   "productName": "Neuron",
   "description": "CKB Neuron Wallet",
-  "version": "0.110.2",
+  "version": "0.110.3",
   "private": true,
   "author": {
     "name": "Nervos Core Dev",
@@ -40,7 +40,7 @@
     "update:client-versions": "node ./scripts/update-ckb-client-versions.js"
   },
   "devDependencies": {
-    "@babel/core": "7.22.15",
+    "@babel/core": "7.23.2",
     "@types/jest": "27.5.2",
     "@types/node": "18.16.18",
     "@types/npmlog": "4.1.4",
