@@ -1797,6 +1797,13 @@
   dependencies:
     jsbi "^4.1.0"
 
+"@ckb-lumos/bi@0.21.1":
+  version "0.21.1"
+  resolved "https://registry.yarnpkg.com/@ckb-lumos/bi/-/bi-0.21.1.tgz#dfaa0968a9ffd990c1c4fcfc0711f20f09eb0485"
+  integrity sha512-6q8uesvu3DAM7GReei9H5seino4tnakTeg8uXtZBPDC6rboMohLCPQvEwhl1iHmsybXvBYVQt4Te1BPPZtuaRw==
+  dependencies:
+    jsbi "^4.1.0"
+
 "@ckb-lumos/ckb-indexer@0.20.0":
   version "0.20.0"
   resolved "https://registry.yarnpkg.com/@ckb-lumos/ckb-indexer/-/ckb-indexer-0.20.0.tgz#c6792821e3b903f998a891b14892ff67229d3957"
