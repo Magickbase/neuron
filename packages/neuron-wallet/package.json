@@ -67,7 +67,7 @@
     "i18next": "21.10.0",
     "leveldown": "6.1.1",
     "levelup": "4.4.0",
-    "reflect-metadata": "0.1.13",
+    "reflect-metadata": "0.2.1",
     "rxjs": "6.6.7",
     "sha3": "2.1.4",
     "sqlite3": "5.1.6",
