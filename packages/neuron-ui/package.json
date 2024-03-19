@@ -54,7 +54,7 @@
     "@ckb-lumos/codec": "0.21.1",
     "@nervosnetwork/ckb-sdk-core": "0.109.0",
     "@nervosnetwork/ckb-sdk-utils": "0.109.0",
-    "canvg": "2.0.0",
+    "canvg": "4.0.1",
     "i18next": "23.7.11",
     "immer": "9.0.21",
     "jsqr": "1.4.0",
