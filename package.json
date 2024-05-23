@@ -63,7 +63,7 @@
   },
   "dependencies": {},
   "resolutions": {
-    "@types/react": "18.2.45",
+    "@types/react": "18.3.3",
     "react-i18next": ">=11.16.4"
   },
   "volta": {
