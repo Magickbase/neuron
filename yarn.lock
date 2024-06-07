@@ -4173,10 +4173,10 @@
   dependencies:
     "@sinonjs/commons" "^1.7.0"
 
-"@spore-sdk/core@0.1.0-beta.14":
-  version "0.1.0-beta.14"
-  resolved "https://registry.yarnpkg.com/@spore-sdk/core/-/core-0.1.0-beta.14.tgz#1b7823e27180f7031fd12f641bbabcf52f78b3e3"
-  integrity sha512-pwD20Ft134aTUzJ3xZDEGtSNqJfuO5CoUGKqIbd/o+oQp1a7UpwdNKiqYxUKUBWEBF/JyBPPD2qvoBID/PycRw==
+"@spore-sdk/core@0.1.0":
+  version "0.1.0"
+  resolved "https://registry.yarnpkg.com/@spore-sdk/core/-/core-0.1.0.tgz#70489351a9ed7534ffccccd736f8cf89481a4fa1"
+  integrity sha512-+qrct1IKUFgrAzhp9yFeV/xbxQJJnl9BYNRwf4yZA+ItQPJkADvewAGOdHrlCT6y66mYRb+NNvsE6bCAU6A99g==
   dependencies:
     "@ckb-lumos/base" "^0.21.0-next.0"
     "@ckb-lumos/bi" "^0.21.0-next.0"
@@ -19442,6 +19442,11 @@ tslib@^2.0.0, tslib@^2.0.1, tslib@^2.0.3, tslib@^2.1.0, tslib@^2.3.0, tslib@^2.4
   version "2.6.0"
   resolved "https://registry.yarnpkg.com/tslib/-/tslib-2.6.0.tgz#b295854684dbda164e181d259a22cd779dcd7bc3"
   integrity sha512-7At1WUettjcSRHXCyYtTselblcHl9PJFFVKiCAy/bY97+BPZXSQ2wbq0P9s8tK2G7dFQfNnlJnPAiArVBVBsfA==
+
+tslib@^2.5.0:
+  version "2.6.3"
+  resolved "https://registry.yarnpkg.com/tslib/-/tslib-2.6.3.tgz#0438f810ad7a9edcde7a241c3d80db693c8cbfe0"
+  integrity sha512-xNvxJEOUiWPGhUuUdQgAJPKOOJfGnIyKySOc09XkKsgdUV/3E2zvwZYdejjmRgPCgcym1juLH3226yA7sEFJKQ==
 
 tsutils@^3.21.0:
   version "3.21.0"
