@@ -22,6 +22,8 @@ import {
   MainnetAddressRequired,
   TestnetAddressRequired,
   UnsupportedCkbCliKeystore,
+  DuplicateImportWallet,
+  AddressRequired,
 } from '../exceptions'
 import AddressService from '../services/addresses'
 import TransactionSender from '../services/transaction-sender'
@@ -338,7 +340,7 @@ export default class WalletsController {
               result: wallet,
             }
           } catch (e) {
-            if (e instanceof UsedName) {
+            if (e instanceof UsedName || e instanceof DuplicateImportWallet) {
               throw e
             }
             throw new InvalidJSON()
@@ -619,6 +621,10 @@ export default class WalletsController {
   private checkAddresses = (addresses: string[]) => {
     const isMainnet = NetworksService.getInstance().isMainnet()
     addresses.forEach(address => {
+      if (!address) {
+        throw new AddressRequired()
+      }
+
       if (isMainnet && !address.startsWith('ckb')) {
         throw new MainnetAddressRequired(address)
       }

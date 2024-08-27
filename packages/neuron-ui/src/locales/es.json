@@ -670,6 +670,7 @@
         "308": "La cantidad no es suficiente",
         "309": "El destinatario debe actualizar la dirección de su cuenta para aceptar más transferencias.",
         "310": "Por favor introduzca una dirección {{tagName}}",
+        "311": "Por favor introduzca una dirección",
         "402": "La aplicación CKB no se abre. Abra la aplicación CKB en su dispositivo.",
         "403": "No se detectó ningún dispositivo. Por favor conecte su dispositivo",
         "404": "Se detectaron varios dispositivos. Sólo se puede conectar un dispositivo del mismo modelo.",
@@ -766,7 +767,8 @@
           "compensation-cycle-will-end": "El ciclo de compensación termina en aproximadamente {{days}} días",
           "compensation-cycle-will-end-hours": "El ciclo de compensación termina en aproximadamente {{hours}} horas",
           "compensation-cycle-has-ended": "El ciclo ha terminado, CKB está listo para ser desbloqueado",
-          "unlocking": "Desbloqueando..."
+          "unlocking": "Desbloqueando...",
+          "calculating-the-compensation-cycle": "Calculando el ciclo de compensación"
         }
       }
     },
@@ -1214,6 +1216,10 @@
         "tip": "La sincronización se ha detenido debido a falta de espacio en disco. <br /> Asigne más espacio en disco o migre los datos a otro disco.",
         "continue-sync": "Continuar sincronización",
         "migrate-data": "Migrar datos"
+      },
+      "import-exist-xpubkey-dialog": {
+        "replace-tip": "El monedero de observación ya ha sido importado antes, ¿desea reemplazarlo?",
+        "delete-tip": "Existe el mismo monedero original. Si desea continuar con la importación, por favor elimínelo."
       }
     },
     "cell-manage": {
