@@ -3455,10 +3455,10 @@
     pump "^3.0.0"
     tar-fs "^2.1.1"
 
-"@nervosnetwork/ckb-types@0.109.1":
-  version "0.109.1"
-  resolved "https://registry.yarnpkg.com/@nervosnetwork/ckb-types/-/ckb-types-0.109.1.tgz#1e8b0abe0ae0227306d6a3f65cb670bcd4cf276f"
-  integrity sha512-mD5mOCGa1JertKZekHSUVYwFPW27VJ0/MdwblWvEEK7pNIU6az+dLiIxgvl4TxR+j+7/GqmXNH1U59CM92y/wg==
+"@nervosnetwork/ckb-types@0.109.3":
+  version "0.109.3"
+  resolved "https://registry.yarnpkg.com/@nervosnetwork/ckb-types/-/ckb-types-0.109.3.tgz#730bd21d2b90dc3cfb491639381b93a82ea2ae54"
+  integrity sha512-i9EVTXCT0bTLpAQXAoF5zHGLWYCXNE5AP4Zl0Niwl3ZplaVAZHNU6ygsh2O3EGmCFv5qlkoY2DuLmsjysEaNLA==
 
 "@nicolo-ribaudo/eslint-scope-5-internals@5.1.1-v1":
   version "5.1.1-v1"
@@ -11330,15 +11330,6 @@ fs-extra@^10.0.0, fs-extra@^10.1.0:
     universalify "^2.0.0"
 
 fs-extra@^11.1.0, fs-extra@^11.2.0:
-  version "11.2.0"
-  resolved "https://registry.yarnpkg.com/fs-extra/-/fs-extra-11.2.0.tgz#e70e17dfad64232287d01929399e0ea7c86b0e5b"
-  integrity sha512-PmDi3uwK5nFuXh7XDTlVnS17xJS7vW36is2+w3xcv8SVxiB4NyATf4ctkVY5bkSjX0Y4nbvZCq1/EjtEyr9ktw==
-  dependencies:
-    graceful-fs "^4.2.0"
-    jsonfile "^6.0.1"
-    universalify "^2.0.0"
-
-fs-extra@^11.2.0:
   version "11.2.0"
   resolved "https://registry.yarnpkg.com/fs-extra/-/fs-extra-11.2.0.tgz#e70e17dfad64232287d01929399e0ea7c86b0e5b"
   integrity sha512-PmDi3uwK5nFuXh7XDTlVnS17xJS7vW36is2+w3xcv8SVxiB4NyATf4ctkVY5bkSjX0Y4nbvZCq1/EjtEyr9ktw==
