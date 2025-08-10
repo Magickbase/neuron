@@ -3073,10 +3073,10 @@
     "@emnapi/runtime" "^1.1.0"
     "@tybys/wasm-util" "^0.9.0"
 
-"@nervosnetwork/ckb-types@0.109.1":
-  version "0.109.1"
-  resolved "https://registry.yarnpkg.com/@nervosnetwork/ckb-types/-/ckb-types-0.109.1.tgz#1e8b0abe0ae0227306d6a3f65cb670bcd4cf276f"
-  integrity sha512-mD5mOCGa1JertKZekHSUVYwFPW27VJ0/MdwblWvEEK7pNIU6az+dLiIxgvl4TxR+j+7/GqmXNH1U59CM92y/wg==
+"@nervosnetwork/ckb-types@0.109.5":
+  version "0.109.5"
+  resolved "https://registry.yarnpkg.com/@nervosnetwork/ckb-types/-/ckb-types-0.109.5.tgz#c302eb3149513dc22fe3905265a397d37088c7cd"
+  integrity sha512-5jQNjFw76YCd+Ppl+0RvBWzxwvWaKfWC5wjVFFdNAieX7xksCHfZFIeow8je7AF8uVypwe56WlLBlblxw9NBBQ==
 
 "@nodelib/fs.scandir@2.1.5":
   version "2.1.5"
